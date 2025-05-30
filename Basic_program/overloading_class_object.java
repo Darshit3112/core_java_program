@@ -8,7 +8,7 @@ public class overloading_class_object
 	}
 	overloading_class_object(int i)
 	{
-		this();
+		this();//this=call curr
 		System.out.println(i);
 	}
 	overloading_class_object(String s)

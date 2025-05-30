@@ -1,5 +1,7 @@
 package Basic_program;
 
+import java.util.Scanner;
+
 public class function 
 {
 	//make function no perameter no return
@@ -13,8 +15,15 @@ public class function
 	}
 	public static void main(String[] args) 
 	{
-		function co=new function();
-		co.demo();//function call
-		co.demo(10);
+		function f=new function();
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter number=");
+		int id=scn.nextInt();
+		f.demo(id);
+		f.demo();
+		
+		
+		
+		
 	}
 }

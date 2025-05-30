@@ -1,5 +1,7 @@
 package Basic_program;
 
+import java.util.Scanner;
+
 public class Constructor_class 
 {
 	int id;
@@ -20,7 +22,11 @@ public class Constructor_class
 	}
 	public static void main(String[] args) 
 	{
-		Constructor_class c=new Constructor_class(1,"test");
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter number & char=");
+		int id=scn.nextInt();
+		String s=scn.next();
+		Constructor_class c=new Constructor_class(id,s);
 		c.display();
 	}
 }
