@@ -1,7 +1,6 @@
 package inheritance;
 
 import java.util.Scanner;
-
 public class array_test 
 {
 	public array_test()
